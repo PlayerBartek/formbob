@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 if(name.isEmpty()){
                     Toast.makeText(MainActivity.this, "Proszę wpisać imię",Toast.LENGTH_SHORT).show();
                 }
-                if(surname.isEmpty()){
+                else if(surname.isEmpty()){
                     Toast.makeText(MainActivity.this, "Proszę wpisać nazwisko",Toast.LENGTH_SHORT).show();
                 }
                 else if(email.isEmpty()){
